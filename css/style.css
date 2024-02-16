@@ -1,19 +1,32 @@
-.main__container__section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.get__ started {
+.get__started {
   display: flex;
   justify-content: center;
+  box-shadow: 2rem;
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.main__container__section {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 4em;
-  margin-bottom: 4em;
+  gap: 2rem;
+  box-shadow: 0 0 4px lightgray;
+  border-radius: 7px;
+  padding: 50px;
+}
+
+.get__started button {
+  color: pink;
 }
 
 * {
