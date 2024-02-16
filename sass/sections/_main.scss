@@ -1,0 +1,39 @@
+@use "../utilities/mixins" as *;
+
+// .main__container__section{
+//     @include flex(space-between, center);
+// }
+// .container{
+//     box-sizing: border-box;
+//     box-shadow: 100px;
+// }
+.get__started{
+display: flex;
+justify-content: center;
+
+    box-shadow: 2rem;
+}
+.main__container{
+    @include flex(space-around,center,column);
+    gap:2em;
+}
+.main__container__section{
+    @include flex(space-around,center);
+    gap:2rem;
+box-shadow: 0 0 4px lightgray;
+border-radius: 7px;
+padding: 50px;
+}
+
+.get__started button{
+    background-color:  rgb(235, 22, 206);
+    color: white;
+    padding: 1.5em 1em;
+    border-radius: 50px;
+    border: none;
+
+
+}
+
+
+
