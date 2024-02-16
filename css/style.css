@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav button {
+  border-radius: 50%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
